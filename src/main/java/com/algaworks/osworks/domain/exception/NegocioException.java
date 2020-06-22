@@ -1,4 +1,4 @@
-package com.algaworks.osworks.exception;
+package com.algaworks.osworks.domain.exception;
 
 public class NegocioException extends RuntimeException {
 

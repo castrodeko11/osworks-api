@@ -8,6 +8,7 @@ public class OsworksApiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(OsworksApiApplication.class, args);
+
 	}
 
 }

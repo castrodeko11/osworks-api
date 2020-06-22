@@ -1,4 +1,4 @@
-package com.algaworks.osworks.controller;
+package com.algaworks.osworks.api.controller;
 
 import java.util.List;
 import java.util.Optional;
@@ -18,9 +18,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.algaworks.osworks.model.Cliente;
-import com.algaworks.osworks.repository.ClienteRepository;
-import com.algaworks.osworks.service.CadastroClienteService;
+import com.algaworks.osworks.domain.model.Cliente;
+import com.algaworks.osworks.domain.repository.ClienteRepository;
+import com.algaworks.osworks.domain.service.CadastroClienteService;
 
 @RestController
 @RequestMapping("/clientes")
